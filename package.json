@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "author": "xmart",
+  "version": "1.0.0",
+  "description": "docs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "vitepress": "1.0.0-alpha.15"
+  }
+}
